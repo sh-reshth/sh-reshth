@@ -5,9 +5,9 @@ I have strong interests in networking, cybersecurity, data analytics and full-st
 
 
 📧Email: shershth20036171@gmail.com
-📂 Project Structure
 
-    
+
+📂 Project Structure    
   📦 social-media-dashboard
  ┣ 📂 models          # MongoDB schemas for User, Post, Message
  ┣ 📂 routes          # Express routes (user, analytics, posts)
