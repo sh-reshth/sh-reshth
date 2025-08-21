@@ -1,16 +1,27 @@
 ## Hi there 👋
 
-<!--
-**sh-reshth/sh-reshth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m Shreshth Sharma, an Integrated MCA student at Amity University, Noida (2021–2026).
+I have strong interests in networking, cybersecurity, data analytics and full-stack development.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📧Email: shershth20036171@gmail.com
+📂 Project Structure
+
+    
+  📦 social-media-dashboard
+ ┣ 📂 models          # MongoDB schemas for User, Post, Message
+ ┣ 📂 routes          # Express routes (user, analytics, posts)
+ ┣ 📂 controllers     # Business logic
+ ┣ 📜 app.js          # Main entry point
+ ┣ 📜 .env            # Environment variables
+ ┣ 📜 package.json    # Dependencies
+ ┣ 📜 README.md       # Documentation
+
+
+⚡ APIs Implemented
+Endpoint	Method	Description
+/analytics/user/:id/followstats	GET	Fetch follower & following counts
+/analytics/user/:id/view	POST	Log a profile view
+/analytics/user/:id/viewcount	GET	Get profile views
+/analytics/user/:id/dms	GET	Fetch DMs sent & received
+/posts/:id/engagement	GET	Fetch likes & comments count
